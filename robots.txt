@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://us-emergency-fund-calculator.enjoy-onepage.com/sitemap.xml

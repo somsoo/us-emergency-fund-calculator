@@ -144,6 +144,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
   };
 })();
 </script>
+<style id="global-quality-shield">
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .ad-bottom, .ad-bottom ins {
+    min-height: 280px !important;
+    background: transparent !important;
+  }
+  :focus-visible {
+    outline: 2px solid #2563eb !important;
+    outline-offset: 2px !important;
+  }
+</style>
 </head>
 <body>
 
@@ -168,33 +184,33 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
       <div class="form-grid">
         <div>
           <label for="expHousing" class="lbl">Housing (Rent / Mortgage)</label>
-          <input type="number" id="expHousing" class="input" value="1500" min="0" step="50">
+          <input type="number" id="expHousing" class="input" value="1500" min="0" step="50" inputmode="numeric">
         </div>
         <div>
           <label for="expFood" class="lbl">Groceries &amp; Basic Food</label>
-          <input type="number" id="expFood" class="input" value="600" min="0" step="25">
+          <input type="number" id="expFood" class="input" value="600" min="0" step="25" inputmode="numeric">
         </div>
         <div>
           <label for="expUtilities" class="lbl">Utilities, Internet &amp; Phone</label>
-          <input type="number" id="expUtilities" class="input" value="300" min="0" step="10">
+          <input type="number" id="expUtilities" class="input" value="300" min="0" step="10" inputmode="numeric">
         </div>
         <div>
           <label for="expTransit" class="lbl">Transportation, Gas &amp; Auto</label>
-          <input type="number" id="expTransit" class="input" value="350" min="0" step="25">
+          <input type="number" id="expTransit" class="input" value="350" min="0" step="25" inputmode="numeric">
         </div>
         <div>
           <label for="expHealth" class="lbl">Healthcare &amp; Insurance</label>
-          <input type="number" id="expHealth" class="input" value="250" min="0" step="10">
+          <input type="number" id="expHealth" class="input" value="250" min="0" step="10" inputmode="numeric">
         </div>
         <div>
           <label for="expDebt" class="lbl">Minimum Debt Payments</label>
-          <input type="number" id="expDebt" class="input" value="300" min="0" step="25">
+          <input type="number" id="expDebt" class="input" value="300" min="0" step="25" inputmode="numeric">
         </div>
       </div>
 
       <div style="margin-top:12px">
         <label for="expOther" class="lbl">Other Essential Survival Costs</label>
-        <input type="number" id="expOther" class="input" value="200" min="0" step="25">
+        <input type="number" id="expOther" class="input" value="200" min="0" step="25" inputmode="numeric">
       </div>
 
       <h2 style="font-size:1.15rem;margin:18px 0 10px">💼 Risk &amp; Career Stability Profile</h2>
@@ -222,11 +238,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
       <div class="form-grid">
         <div>
           <label for="currentSavings" class="lbl">Current Cash Reserves ($)</label>
-          <input type="number" id="currentSavings" class="input" value="7000" min="0" step="100">
+          <input type="number" id="currentSavings" class="input" value="7000" min="0" step="100" inputmode="numeric">
         </div>
         <div>
           <label for="monthlySavingsRate" class="lbl">Monthly Savings Pace ($/mo)</label>
-          <input type="number" id="monthlySavingsRate" class="input" value="500" min="0" step="50">
+          <input type="number" id="monthlySavingsRate" class="input" value="500" min="0" step="50" inputmode="numeric">
         </div>
       </div>
 
